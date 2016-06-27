@@ -1,6 +1,6 @@
 # Electron开发桌面应用
 
-Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，最初是 Github 发布的 Atom 编辑器衍生出的 Atom Shell，后更名为 Electron。Electron 提供了一个能通过 JavaScript 和 HTML 创建桌面应用的平台，同时集成 Node 来授予网页访问底层系统的权限。目前常见的有[NW](http://nwjs.io/)、[heX](http://hex.youdao.com/zh-cn/index.html)、[Electron](http://electron.atom.io/)，可以打造桌面应用。
+Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，最初是 Github 发布的 Atom 编辑器衍生出的 Atom Shell，后更名为 Electron。Electron 提供了一个能通过 JavaScript 和 HTML 创建桌面应用的平台，同时集成 Node 来授予网页访问底层系统的权限。目前常见的有[NW](http://nwjs.io/)、[heX](http://hex.youdao.com/zh-cn/index.html)、[Electron](http://electron.atom.io/)、[MacGap](http://macgapproject.github.io/)、[MacGap案例switchhost](https://github.com/oldj/SwitchHosts)，可以打造桌面应用。
 
 前不久Electron在[GitHub发布了Electron1.0版本](https://www.sdk.cn/news/3446)，[Electron Documentation](http://electron.atom.io/docs/tutorial/quick-start/)。
 
