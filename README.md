@@ -171,7 +171,13 @@ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 
 体积大
 electron打包出来的程序，一般至少100M，对于一个小程序来说有点太大了，体积问题感觉是很多跨平台工具的通病。
-为了减少体积，记得使用packager的ignore参数，排除掉例如electron等程序运行不必要的包，如果指定了packager的输出路径在程序的目录，记得也排除掉，不然会越打包越大。
+
+```
+Be careful not to include node_modules you don't want into your final app. electron-packager, electron-prebuilt and .git will be ignored by default. You can use --ignore to ignore files and folders via a regular expression. For example, --ignore=node_modules/package-to-ignore or --ignore="node_modules/(some-package[0-9]*|dev-dependency)".
+```
+
+记得使用packager的ignore参数，官方说明文档里面也说明了electron-packager、 electron-prebuilt 、.git默认会被ignore，为了减少体积，排除掉例如electron等程序运行不必要的包，如果指定了packager的输出路径在程序的目录，记得也排除掉，不然会越打包越大。
+
 最后我使用的打包命令如下：
 ```
 electron-packager <sourcedir> <sourcedir> --platform= <platform> win32,darwin --arch=all --version=0.33.7 --out=dist/ --overwrite --ignore=node_modules/electron-* --ignore=node_modules/.bin --ignore=.git --ignore=dist --prune
