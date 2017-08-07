@@ -7,10 +7,15 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 # electron项目
 
 [electronic-wechat](https://github.com/geeeeeeeeek/electronic-wechat/blob/master/README_zh.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
 [WeFlow](https://github.com/weixin/WeFlow)
+
 [Hozz](https://github.com/ppoffice/Hozz)
+
 [hummingbird](https://github.com/stormtea123/hummingbird)
+
 [ElectronOCR](https://github.com/wxyyxc1992/ElectronOCR)
+
 [N1](https://github.com/nylas/N1)
 
 
@@ -28,7 +33,7 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 
 [electron docs-translations zh-CN](https://github.com/atom/electron/tree/master/docs-translations/zh-CN)
 
-[Electron 中文文档](http://www.kancloud.cn/wizardforcel/electron-doc/137761)
+[Electron 中文文档](https://github.com/electron/electron/tree/master/docs-translations/zh-CN)
 
 ## Electron博文
 
