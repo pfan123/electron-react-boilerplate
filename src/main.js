@@ -1,6 +1,3 @@
-// https://github.com/electron/electron/blob/master/docs/api/browser-window.md
-// https://github.com/electron/electron/tree/master/lib/browser
-
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
@@ -13,18 +10,15 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
-    height: 800,
+    height: 600,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
-      devTools: true,
+      preload: path.join(__dirname, 'preload.js')
     }
   })
 
-  mainWindow.webContents.openDevTools ()
-
   // and load the index.html of the app.
-  // mainWindow.loadFile('./build/index.html')
-  mainWindow.loadURL('http://127.0.0.1:3000')
+  mainWindow.loadFile('index.html')
+  //mainWindow.loadURL()
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

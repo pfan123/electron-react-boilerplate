@@ -20,6 +20,13 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "src",
+    "main.js",
+    "preload.js",
+    "renderer.js",
+    "config-overrides.js"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
