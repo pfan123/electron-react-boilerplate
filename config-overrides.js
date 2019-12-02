@@ -10,13 +10,12 @@ module.exports = {
         app.get('/renderer.js', (req, res) => {
           res.setHeader('Content-Type', 'text/javascript')
           const content = fs.readFileSync('./renderer.js', 'utf8')
-          console.error('content', content)
           res.send(content)
         })
       }
 
       // Return your customised Webpack Development Server config.
-      return config;
+      return config
     }
   }
 }

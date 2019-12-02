@@ -4,6 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
+    "dev": "npm run electron && npm run start",
     "electron": "electron .",
     "pack": "electron-builder --windows nsis:ia32 --dir",
     "start": "react-app-rewired start",
@@ -52,6 +53,7 @@
     "@types/react": "16.9.13",
     "@types/react-dom": "16.9.4",
     "babel-eslint": "10.x",
+    "chokidar": "^3.3.0",
     "eslint-config-react-app": "^5.0.2",
     "eslint-plugin-flowtype": "3.x",
     "eslint-plugin-import": "2.x",
