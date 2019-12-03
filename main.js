@@ -23,7 +23,7 @@ function createWindow () {
   mainWindow.webContents.openDevTools ()
 
   // and load the index.html of the app.
-  // mainWindow.loadFile('./build/index.html')
+  // mainWindow.loadFile('./index.html')
   mainWindow.loadURL('http://127.0.0.1:3000')
 
   // Open the DevTools.
