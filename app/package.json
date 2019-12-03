@@ -1,5 +1,10 @@
 {
   "name"    : "app",
   "version" : "0.1.0",
-  "main"    : "main.js"
+  "main"    : "main.js",
+  "description": "A minimal Electron application",
+  "author": "pfan123",
+  "devDependencies": {
+    "electron": "^7.1.2"
+  }
 }

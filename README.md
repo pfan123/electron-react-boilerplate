@@ -1,3 +1,37 @@
+# electron-react-boilerplate
+
+`electron-react-boilerplate` --  Electron App 开发的 react 模板。
+
+[Electron 官方文档](https://electronjs.org/)
+
+[electron-builder 官方文档](https://www.electron.build/)
+
+# Usage
+
+### clone 仓库
+
+```
+git@github.com:pfan123/electron-react-boilerplate.git
+```
+
+### 安装
+
+```
+yarn start
+```
+
+### 开发
+
+``` 
+yarn dev // 开发调试
+
+yarn build  // 打包 electron、webview 文件
+
+yarn start // 预览
+
+yarn dist // 打包安装包
+```
+
 # Electron开发桌面应用
 
 Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，最初是 Github 发布的 Atom 编辑器衍生出的 Atom Shell，后更名为 Electron。Electron 提供了一个能通过 JavaScript 和 HTML 创建桌面应用的平台，同时集成 Node 来授予网页访问底层系统的权限。目前常见的有[NW](http://nwjs.io/)、[heX](http://hex.youdao.com/zh-cn/index.html)、[Electron](http://electron.atom.io/)、[MacGap](http://macgapproject.github.io/)、[MacGap案例switchhost](https://github.com/oldj/SwitchHosts)，可以打造桌面应用。
@@ -281,3 +315,4 @@ npm run package
 - [用 Electron 开发桌面应用](http://gold.xitu.io/entry/5603549660b20d2d666cf0d2)
 - [Electron API文档](https://github.com/electron/electron/tree/master/docs/api)
 - [Awesome Electron 大全](https://github.com/sindresorhus/awesome-electron)
+- [electron-builder打包见解](https://juejin.im/post/5bc53aade51d453df0447927)
