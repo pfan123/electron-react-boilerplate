@@ -4,11 +4,12 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "dev": "npm run electron && npm run start",
-    "electron": "electron .",
+    "dev": "node ./build/dev.js",
+    "build": "node ./build/build.js",
+    "electron": "electron ./app",
     "pack": "electron-builder --windows nsis:ia32 --dir",
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start:webview": "react-app-rewired start",
+    "build:webview": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
