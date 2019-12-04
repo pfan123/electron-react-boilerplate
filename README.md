@@ -27,6 +27,8 @@ yarn dev // 开发调试
 
 yarn build  // 打包 electron、webview 文件
 
+yarn postinstall // 正式环境同步依赖
+
 yarn start // 预览
 
 yarn dist // 打包安装包
