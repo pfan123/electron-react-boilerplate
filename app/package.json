@@ -5,6 +5,6 @@
   "description": "A minimal Electron application",
   "author": "pfan123",
   "devDependencies": {
-    "electron": "^7.1.2"
+    "electron": "7.1.2"
   }
 }
