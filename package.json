@@ -10,53 +10,12 @@
     "electron": "electron ./app",
     "postinstall": "cd dist && electron-builder install-app-deps",
     "pack": "electron-builder --dir",
-    "dist": "cd dist && electron-builder",
+    "dist": "cd dist && electron-builder -mw",
     "start:webview": "react-app-rewired start",
-    "build:webview": "react-app-rewired build -mw",
+    "build:webview": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "deploy": "standard-version --release-as patch && git push --follow-tags origin HEAD"
-  },
-  "build": {
-    "compression": "maximum",
-    "files": [
-      "**/*",
-      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
-      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
-      "!**/node_modules/*.d.ts",
-      "!**/node_modules/.bin",
-      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
-      "!.editorconfig",
-      "!**/._*",
-      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
-      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
-      "!**/{appveyor.yml,.travis.yml,circle.yml}",
-      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
-    ],
-    "appId": "com.electron.app",
-    "productName": "app",
-    "copyright": " Copyright © 2019 @pfan123",
-    "directories": {
-      "output": "output",
-      "app": "dist"
-    },
-    "mac": {
-      "category": "public.app-category.developer-tools",
-      "target": "dmg",
-      "icon": "dist/icons/icon.icns"
-    },
-    "win": {
-      "icon": "dist/icons/icon.ico",
-      "target": [
-        {
-          "target": "nsis",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        }
-      ]
-    }
   },
   "husky": {
     "hooks": {
