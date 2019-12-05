@@ -34,6 +34,17 @@ yarn start // 预览
 yarn dist // 打包安装包
 ```
 
+### 构建打包
+
+`electron-builder` A complete solution to package and build a ready for distribution Electron app for macOS, Windows and Linux with “auto update” support out of the box.
+
+- [Icons](https://www.electron.build/icons)
+- [Auto Update](https://www.electron.build/auto-update)
+- [Code Signing](https://www.electron.build/code-signing)
+- [Multi Platform Build](https://www.electron.build/code-signing)
+
+
+
 # Electron开发桌面应用
 
 Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，最初是 Github 发布的 Atom 编辑器衍生出的 Atom Shell，后更名为 Electron。Electron 提供了一个能通过 JavaScript 和 HTML 创建桌面应用的平台，同时集成 Node 来授予网页访问底层系统的权限。目前常见的有[NW](http://nwjs.io/)、[heX](http://hex.youdao.com/zh-cn/index.html)、[Electron](http://electron.atom.io/)、[MacGap](http://macgapproject.github.io/)、[MacGap案例switchhost](https://github.com/oldj/SwitchHosts)，可以打造桌面应用。

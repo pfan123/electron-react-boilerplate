@@ -24,7 +24,7 @@
       "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
     ],
     "appId": "com.electron.app",
-    "productName": "ap111p",
+    "productName": "app",
     "copyright": " Copyright © 2019 @pfan123",
     "mac": {
       "category": "public.app-category.developer-tools",
