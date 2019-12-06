@@ -2,8 +2,9 @@
 // https://github.com/electron/electron/tree/master/lib/browser
 
 // Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, Menu} = require('electron')
 const path = require('path')
+const menuTemplate = require('./menu')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -12,6 +13,7 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
+    backgroundColor: '#fff',
     width: 800,
     height: 800,
     webPreferences: {
@@ -21,6 +23,9 @@ function createWindow () {
   })
 
   mainWindow.webContents.openDevTools ()
+
+  const menu = Menu.buildFromTemplate(menuTemplate)
+  Menu.setApplicationMenu(menu)
 
   // and load the index.html of the app.
   if(process.env.NODE_ENV === 'dev'){
