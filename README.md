@@ -106,8 +106,7 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 [electron-connect](https://github.com/Quramy/electron-connect)
 
 
-
-参考资料：
+## 参考资料：
 
 - [用 Electron 开发桌面应用](http://gold.xitu.io/entry/5603549660b20d2d666cf0d2)
 
