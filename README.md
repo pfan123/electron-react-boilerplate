@@ -51,7 +51,7 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 
 前不久Electron在[GitHub发布了Electron1.0版本](https://www.sdk.cn/news/3446)，[Electron Documentation](http://electron.atom.io/docs/tutorial/quick-start/)。
 
-# electron项目
+## electron项目
 
 [electronic-wechat](https://github.com/geeeeeeeeek/electronic-wechat/blob/master/README_zh.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
@@ -66,9 +66,9 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 [N1](https://github.com/nylas/N1)
 
 
-# Electron学习资料
+## Electron学习资料
 
-## Electron文档
+### Electron文档
 
 [Electron Github](https://github.com/atom/electron)
 
@@ -82,7 +82,7 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 
 [Electron 中文文档](https://github.com/electron/electron/tree/master/docs-translations/zh-CN)
 
-## Electron博文
+### Electron博文
 
 [Electron 和 Vue.js 构建跨平台桌面应用](https://youhaosuda.com/blog/31)
 
@@ -99,7 +99,7 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 [electron-linvodb-manager leveldb的管理工具](https://cnodejs.org/topic/57271c9c5a26c4a841ecbf67?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
  
 
-# Electron快速上手demo
+## Electron快速上手demo
 
 [electron-boilerplate](https://github.com/chuyik/electron-boilerplate)
 
@@ -107,7 +107,7 @@ Electron 是一款可以利用 Web技术 开发跨平台桌面应用的框架，
 
 
 
-# Electron开发工程
+## Electron开发工程
 
 首先安装依赖
 
@@ -192,10 +192,10 @@ app.on('ready', function() {
   </body>
 </html>
 ```
-# 运行你的应用
+## 运行你的应用
 一旦你创建了最初的 `main.js`， `index.html` 和 `package.json` 这几个文件，你可能会想尝试在本地运行并测试，看看是不是和期望的那样正常运行。
 
-# electron-prebuild
+## electron-prebuild
 如果你已经用 npm 全局安装了 electron-prebuilt，你只需要按照如下方式直接运行你的应用：
 ```
 electron .
@@ -205,7 +205,7 @@ electron .
 ./node_modules/.bin/electron .
 ```
 
-# electron打包生成
+## electron打包生成
 electron应用开发完成之后，打包生产相应平台应用，通常推荐的工具有`electron-packager`和`asar`。
 ### electron-packager打包生成各平台的程序
 用electron-packager打包生成各平台的程序，还是很方便的，但是有些坑。
@@ -266,7 +266,7 @@ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 `注意`：使用`electron-packager`打包，os系统打包os.app文件，不能打包window文件，windows系统可以打包os文件以及exe文件。[electron-builder](https://github.com/electron-userland/electron-builder)打包msi、exe、dmg文件，os系统，只能打包dmg文件，window系统才能打包exe，msi文件。
 
 
-## electron-builder打包配置
+### electron-builder打包配置
 
 1.`package.json`文件需包含应用程序指定字段： name, description, version and author。
 
