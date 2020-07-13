@@ -86,7 +86,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "rimraf": "^3.0.0",
-    "standard-version": "^7.0.1",
+    "standard-version": "^8.0.1",
     "typescript": "3.7.2"
   },
   "devDependencies": {
