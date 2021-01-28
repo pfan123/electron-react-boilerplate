@@ -4541,10 +4541,10 @@ electron-to-chromium@^1.3.247, electron-to-chromium@^1.3.317:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.321.tgz#913869f5ec85daabba0e75c9c314b4bf26cdb01e"
   integrity sha512-jJy/BZK2s2eAjMPXVMSaCmo7/pSY2aKkfQ+LoAb5Wk39qAhyP9r8KU74c4qTgr9cD/lPUhJgReZxxqU0n5puog==
 
-electron@^7.1.2:
-  version "7.2.4"
-  resolved "https://registry.npm.taobao.org/electron/download/electron-7.2.4.tgz#9fc0446dae23ead897af8742470cb18da55c6ce9"
-  integrity sha1-n8BEba4j6tiXr4dCRwyxjaVcbOk=
+electron@^9.4.0:
+  version "9.4.0"
+  resolved "https://registry.npm.taobao.org/electron/download/electron-9.4.0.tgz#c3c607e3598226ddbaaff8babcdffa8bb2210936"
+  integrity sha1-w8YH41mCJt26r/i6vN/6i7IhCTY=
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
